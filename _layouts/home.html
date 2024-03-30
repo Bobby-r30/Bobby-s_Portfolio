@@ -4,9 +4,30 @@ layout: default
 
 {% include projects.html %}
 
-Hi there and welcome to my porfolio website 😊
+<div class="center-content">
+  Hi there and welcome to my portfolio website 😊
 
-Why not try clicking on the "About" link on the top of the page to find out more about who I am and what I do.
-<a href="https://example.com">
-  <img src="https://media.istockphoto.com/id/1501348253/photo/golden-retriever-and-british-shorthair-cat-lying-together-under-blanket.webp?b=1&s=170667a&w=0&k=20&c=xkZG8SuK0fhVQ-TZzwu9iR9Rh8OcpMBIqcThhSkv-ZA=" alt="Golden Retriever and British Shorthair Cat under a blanket">
-</a>
+  <div class="center-text">
+    Why not try clicking on the "About" link on the top of the page or simply click the image below to find out more about who I am and what I do.
+  </div>
+
+  <div class="center-image">
+    <a href="https://bobby-r30.github.io/Bobby-s_Portfolio/about">
+      <img src="https://media.istockphoto.com/id/1501348253/photo/golden-retriever-and-british-shorthair-cat-lying-together-under-blanket.webp?b=1&s=170667a&w=0&k=20&c=xkZG8SuK0fhVQ-TZzwu9iR9Rh8OcpMBIqcThhSkv-ZA=" alt="Golden Retriever and British Shorthair Cat under a blanket">
+    </a>
+  </div>
+</div>
+
+<style>
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.center-text {
+  text-align: center;
+}
+</style>
